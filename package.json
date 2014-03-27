@@ -1,0 +1,49 @@
+{
+  "name": "grunt-auto-package",
+  "description": "Creates packages following a structure of folders and with a minimal configuration",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tcorral/grunt-auto-package.git",
+  "author": {
+    "name": "tcorral",
+    "email": "amischol@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tcorral/grunt-auto-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tcorral/grunt-auto-package/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tcorral/grunt-auto-package/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "fs-extra": "0.8.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.3"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.3"
+  },
+  "keywords": [
+    "gruntplugin",
+    "auto",
+    "package",
+    "minimize"
+  ],
+  "dependencies": {
+    "walk": "2.3.1",
+    "uglify-js": "2.4.13"
+  }
+}

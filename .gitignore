@@ -13,3 +13,7 @@ results
 
 npm-debug.log
 node_modules
+.idea
+test/_packages/_ajax/__build.js
+test/_packages/_event/__build.js
+test/_packages/_event_reverse/__build.js
